@@ -9,6 +9,7 @@
 package main
 
 import (
+	"log"
 	"os"
 	"path/filepath"
 
@@ -23,7 +24,7 @@ import (
 func generateBlock() error {
 	// 获取资产文件夹路径
 	AssetsPath := flag.Get.AssetsFolder
-	
+
 	// 遍历文件夹
 	Dirs, err := os.ReadDir(AssetsPath)
 	if err != nil {
@@ -40,6 +41,8 @@ func generateBlock() error {
 			if err == nil {
 				continue
 			}
+
+			log.Default().Printf("Linking files in %s/......", Dir.Name())
 
 			// 生成文件块
 			Catalog, err := block.Generate(DirPath)
