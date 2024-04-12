@@ -14,7 +14,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/HyacinthusAcademy/miyako/pkg/block"
+	"github.com/nijinekoyo/miyako/pkg/block"
 	"github.com/schollz/progressbar/v3"
 )
 

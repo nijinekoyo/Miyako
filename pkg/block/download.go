@@ -1,7 +1,7 @@
 /*
  * @Author: nijineko
  * @Date: 2024-04-12 19:58:14
- * @LastEditTime: 2024-04-12 21:33:50
+ * @LastEditTime: 2024-04-12 22:27:45
  * @LastEditors: nijineko
  * @Description: 下载文件块
  * @FilePath: \Miyako\pkg\block\download.go
@@ -16,7 +16,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/HyacinthusAcademy/miyako/pkg/catalog"
+	"github.com/nijinekoyo/miyako/pkg/catalog"
 )
 
 type Download struct {

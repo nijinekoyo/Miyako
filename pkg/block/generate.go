@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/HyacinthusAcademy/miyako/pkg/catalog"
+	"github.com/nijinekoyo/miyako/pkg/catalog"
 )
 
 /**

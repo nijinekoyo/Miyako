@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/HyacinthusAcademy/miyako/internal/flag"
+	"github.com/nijinekoyo/miyako/internal/flag"
 )
 
 // 启动文件服务器

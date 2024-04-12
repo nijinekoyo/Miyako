@@ -13,8 +13,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/HyacinthusAcademy/miyako/tools/file"
-	"github.com/HyacinthusAcademy/miyako/tools/random"
+	"github.com/nijinekoyo/miyako/tools/file"
+	"github.com/nijinekoyo/miyako/tools/random"
 )
 
 /**

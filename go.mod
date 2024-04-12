@@ -1,4 +1,4 @@
-module github.com/HyacinthusAcademy/miyako
+module github.com/nijinekoyo/miyako
 
 go 1.22.2
 

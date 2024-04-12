@@ -12,7 +12,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/HyacinthusAcademy/miyako/pkg/catalog"
+	"github.com/nijinekoyo/miyako/pkg/catalog"
 )
 
 /**

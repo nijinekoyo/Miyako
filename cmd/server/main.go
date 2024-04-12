@@ -11,7 +11,7 @@ package main
 import (
 	"log"
 
-	"github.com/HyacinthusAcademy/miyako/internal/flag"
+	"github.com/nijinekoyo/miyako/internal/flag"
 )
 
 func main() {
