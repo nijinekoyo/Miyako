@@ -11,7 +11,6 @@ package catalog
 import (
 	"hash/crc32"
 	"os"
-	"path"
 	"path/filepath"
 
 	"github.com/HyacinthusAcademy/miyako/tools/file"
@@ -35,7 +34,7 @@ func Generate(FolderPath string) (*Catalog, error) {
 	var CatalogData Catalog
 
 	// 包名字为文件夹名字+随机字符
-	CatalogData.PackageFile = path.Base(FolderPath) + "_" + random.String(16, 3)
+	CatalogData.PackageFile = filepath.Base(FolderPath) + "_" + random.String(16, 3)
 
 	// 遍历文件
 	for _, FilePath := range Paths {
