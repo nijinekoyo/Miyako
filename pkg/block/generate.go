@@ -1,7 +1,7 @@
 /*
  * @Author: nijineko
  * @Date: 2024-04-12 17:53:08
- * @LastEditTime: 2024-04-12 17:58:40
+ * @LastEditTime: 2024-04-12 20:15:01
  * @LastEditors: nijineko
  * @Description: 创建文件块
  * @FilePath: \Miyako\pkg\block\generate.go
@@ -29,7 +29,7 @@ func Generate(FolderPath string) (*catalog.Catalog, error) {
 	}
 
 	// 生成文件块
-	BlockFile, err := os.OpenFile(filepath.Join(FolderPath, CatalogData.PackageFile), os.O_CREATE|os.O_WRONLY, 0644)
+	BlockFile, err := os.OpenFile(filepath.Join(FolderPath, CatalogData.BlockFile), os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		return nil, err
 	}

@@ -33,8 +33,8 @@ func Generate(FolderPath string) (*Catalog, error) {
 	// 生成catalog
 	var CatalogData Catalog
 
-	// 包名字为文件夹名字+随机字符
-	CatalogData.PackageFile = filepath.Base(FolderPath) + "_" + random.String(16, 3)
+	// 块名字为文件夹名字+随机字符
+	CatalogData.BlockFile = filepath.Base(FolderPath) + "_" + random.String(16, 3)
 
 	// 遍历文件
 	for _, FilePath := range Paths {

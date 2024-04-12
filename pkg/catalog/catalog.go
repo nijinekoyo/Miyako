@@ -17,8 +17,8 @@ type CatalogFile struct {
 }
 
 type Catalog struct {
-	PackageFile string        `json:"package_file"` // 包文件名称
-	Files       []CatalogFile `json:"files"`        // 文件列表
+	BlockFile string        `json:"block_file"` // 文件块地址
+	Files     []CatalogFile `json:"files"`      // 文件列表
 }
 
 // 序列化Catalog
