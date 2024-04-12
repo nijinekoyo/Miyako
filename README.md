@@ -34,5 +34,16 @@ go build ./cmd/server/
 go build ./cmd/client/
 ```
 
+## 引用
+引入包
+```
+go get -u github.com/nijinekoyo/miyako
+```
+包使用说明
+1. pkg/catalog  
+用于创建和解析catalog，API请查看[文档](https://pkg.go.dev/github.com/nijinekoyo/miyako/pkg/catalog)
+2. pkg/block  
+用于生成文件块和下载文件块，API请查看[文档](https://pkg.go.dev/github.com/nijinekoyo/miyako/pkg/block)
+
 ## 许可
 本项目基于`MIT License`协议分发
